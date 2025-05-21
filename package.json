@@ -1,6 +1,7 @@
 {
   "name": "today-flower-common",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -8,6 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
+  "description": "",
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
