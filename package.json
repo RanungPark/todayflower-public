@@ -1,5 +1,5 @@
 {
-  "name": "today-flower-common",
+  "name": "todayflower-public",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "description": "",
   "devDependencies": {
+    "@todayflower-public/prettier-config": "workspace:^",
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
     "prettier": "^3.5.3",
