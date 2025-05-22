@@ -1,0 +1,9 @@
+{
+  "name": "@todayflower-public/tsconfig",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
