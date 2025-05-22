@@ -1,25 +1,19 @@
 {
-  "name": "@todayflower-public/prettier-config",
+  "name": "@todayflower-public/tsconfig",
   "version": "0.0.0",
-  "description": "prettier config for RanungPark",
+  "description": "typescript config for RanungPark",
   "type": "module",
-  "main": "index.json",
-  "scripts": {},
-  "peerDependencies": {
-    "prettier": "^2.8.8 || ^3.0.0"
-  },
   "author": "RanungPark",
   "repository": {
     "type": "git",
     "url": "https://github.com/RanungPark/todayflower-public",
-    "directory": "packages/prettier-config"
+    "directory": "packages/tsconfig"
   },
   "homepage": "https://github.com/RanungPark/todayflower-public",
   "keywords": [
-    "prettier",
-    "prettier-config"
+    "tsconfig"
   ],
-  "license": "MIT",
+  "scripts": {},
   "publishConfig": {
     "access": "public"
   }
