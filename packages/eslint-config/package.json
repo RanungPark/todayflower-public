@@ -1,24 +1,58 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@todayflower-public/eslint-config",
   "version": "0.0.0",
+  "description": "eslint config for RanungPark",
   "type": "module",
-  "private": true,
+  "main": "./dist/index.js",
   "exports": {
-    "./base": "./base.js",
-    "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./react": "./react/index.js",
+    "./node": "./node/index.js",
+    "./typescript": "./typescript/index.js",
+    "./strict": "./strict/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm run clean && mkdir -p dist && cp -r react node typescript strict dist/",
+    "deploy": "pnpm run build"
+  },
+  "author": "RanungPark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RanungPark/todayflower-public",
+    "directory": "packages/eslint-config"
+  },
+  "homepage": "https://github.com/RanungPark/todayflower-public",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": ">=2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-n": "^17.14.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-sonarjs": "^3.0.1",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.14.0",
+    "neostandard": "^0.11.9",
+    "typescript-eslint": "^8.18.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.26.0",
-    "@next/eslint-plugin-next": "^15.3.0",
-    "eslint": "^9.26.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-turbo": "^2.5.0",
-    "globals": "^16.1.0",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.32.0"
+    "@rollup/plugin-json": "^6.1.0",
+    "builtin-modules": "^4.0.0",
+    "eslint": "^9.17.0",
+    "rollup": "^4.27.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
   }
 }
