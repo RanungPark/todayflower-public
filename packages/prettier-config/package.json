@@ -1,7 +1,7 @@
 {
   "name": "@todayflower-public/prettier-config",
   "version": "0.0.0",
-  "description": "prettier 3버전에 호환되는 설정파일",
+  "description": "prettier config for RanungPark",
   "type": "module",
   "main": "index.json",
   "scripts": {},
@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/RanungPark/todayflower-public",
   "keywords": [
-    "prettier"
+    "prettier",
+    "prettier-config"
   ],
   "license": "MIT",
   "publishConfig": {
