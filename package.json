@@ -9,12 +9,14 @@
     "lint:fix": "pnpm run lint --fix",
     "prettier": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
     "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
+    "publish": "changeset publish",
     "prepare": "husky install"
   },
   "description": "",
   "devDependencies": {
-    "@todayflower-public/prettier-config": "workspace:^",
+    "@changesets/cli": "^2.29.4",
     "@todayflower-public/eslint-config": "workspace:^",
+    "@todayflower-public/prettier-config": "workspace:^",
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
     "prettier": "^3.5.3",
