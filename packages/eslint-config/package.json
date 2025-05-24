@@ -14,8 +14,10 @@
     "dist"
   ],
   "scripts": {
+    "version": "pnpm version",
+    "clean": "rm -rf dist",
     "build": "pnpm run clean && mkdir -p dist && cp -r react node typescript strict dist/",
-    "deploy": "pnpm run build"
+    "deploy": "pnpm run build && pnpm publish"
   },
   "author": "RanungPark",
   "repository": {

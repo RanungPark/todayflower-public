@@ -4,7 +4,10 @@
   "description": "prettier config for RanungPark",
   "type": "module",
   "main": "index.json",
-  "scripts": {},
+  "scripts": {
+    "version": "pnpm version",
+    "deploy": "pnpm publish"
+  },
   "peerDependencies": {
     "prettier": "^2.8.8 || ^3.0.0"
   },
