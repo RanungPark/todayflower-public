@@ -9,6 +9,8 @@
     "lint:fix": "pnpm run lint --fix",
     "prettier": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
     "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
+    "start:docs": "turbo start:docs --filter ui-docs",
+    "build:docs": "turbo build:docs",
     "publish": "changeset publish",
     "prepare": "husky install"
   },

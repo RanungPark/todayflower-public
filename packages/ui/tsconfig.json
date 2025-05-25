@@ -1,0 +1,10 @@
+{
+  "extends": "@todayflower-public/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
+  },
+  "include": ["./src", "./typings/*"],
+  "exclude": ["node_modules", "dist"]
+}
