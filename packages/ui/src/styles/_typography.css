@@ -1,0 +1,174 @@
+:root {
+  --font-size-200: 12px;
+  --font-size-300: 14px;
+  --font-size-400: 16px;
+  --font-size-450: 18px;
+  --font-size-500: 20px;
+  --font-size-550: 22px;
+  --font-size-600: 24px;
+  --font-size-650: 26px;
+  --font-size-700: 28px;
+  --font-size-750: 32px;
+  --font-size-800: 40px;
+  --font-size-900: 48px;
+  --font-size-1000: 64px;
+
+  --line-height-tight: 100%;
+  --line-height-normal: 120%;
+  --line-height-loose: 140%;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+}
+
+.typography-h1 {
+  font-size: var(--font-size-1000);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
+}
+
+.typography-h2 {
+  font-size: var(--font-size-900);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
+}
+
+.typography-h3 {
+  font-size: var(--font-size-800);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-h4 {
+  font-size: var(--font-size-700);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-h5 {
+  font-size: var(--font-size-550);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-h6 {
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-subtitle {
+  font-size: var(--font-size-450);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-body {
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-loose);
+}
+
+.typography-button {
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+  text-transform: uppercase;
+}
+
+.typography-link {
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.typography-overline {
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+  text-transform: uppercase;
+}
+
+.typography-caption {
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.typography-caption-small {
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+@media (max-width: 768px) {
+  .typography-h1 {
+    font-size: var(--font-size-800);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-h2 {
+    font-size: var(--font-size-750);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-h3 {
+    font-size: var(--font-size-650);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .typography-h4 {
+    font-size: var(--font-size-550);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .typography-h5 {
+    font-size: var(--font-size-450);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-h6 {
+    font-size: var(--font-size-400);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-tight);
+  }
+
+  .typography-subtitle {
+    font-size: var(--font-size-450);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-loose);
+  }
+
+  .typography-body {
+    font-size: var(--font-size-400);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-loose);
+  }
+
+  .typography-button {
+    font-size: var(--font-size-300);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-tight);
+  }
+
+  .typography-link {
+    font-size: var(--font-size-300);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-overline {
+    font-size: var(--font-size-200);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-caption {
+    font-size: var(--font-size-300);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .typography-caption-small {
+    font-size: var(--font-size-200);
+    font-weight: var(--font-weight-medium);
+  }
+}
