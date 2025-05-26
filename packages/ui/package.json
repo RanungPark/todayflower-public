@@ -14,7 +14,8 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.mjs"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./style.css": "./dist/index.css"
   },
   "scripts": {
     "clean": "rm -rf dist",
