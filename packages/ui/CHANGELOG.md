@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.0.2
+
+### Patch Changes
+
+- 99ea171: refactor: 타입의 확장 mts에서 ts로 변경
+
 ## 1.0.1
 
 ### Patch Changes
