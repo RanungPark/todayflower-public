@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.0.1
+
+### Patch Changes
+
+- 544ff33: refactor: vite 설정 파일 수정
+
 ## 1.0.0
 
 ### Major Changes
