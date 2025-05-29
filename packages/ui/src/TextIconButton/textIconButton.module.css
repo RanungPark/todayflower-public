@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: auto;
+  height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+
+  &:hover {
+    color: var(--gray);
+    border-bottom: 1px solid var(--black);
+  }
+
+  &:disabled {
+    color: var(--light-gray);
+    cursor: not-allowed;
+  }
+
+  &:active {
+    color: var(--black);
+  }
+}
+
+.button-with-icon {
+  gap: 4px;
+}
