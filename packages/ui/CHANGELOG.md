@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.0.5
+
+### Patch Changes
+
+- 5fa1aee: feat: 공통으로 쓰일 디자인 토큰 css 작성
+
 ## 1.0.4
 
 ### Patch Changes
