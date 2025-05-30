@@ -102,7 +102,13 @@
   line-height: var(--line-height-normal);
 }
 
-@media (max-width: 768px) {
+.typography-caption-bold {
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+@media (max-width: 375px) {
   .typography-h1 {
     font-size: var(--font-size-800);
     font-weight: var(--font-weight-medium);
@@ -169,6 +175,11 @@
 
   .typography-caption-small {
     font-size: var(--font-size-200);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .typography-caption-bold {
+    font-size: var(--font-size-300);
     font-weight: var(--font-weight-medium);
   }
 }
