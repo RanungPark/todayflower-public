@@ -11,11 +11,18 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   rightIcon?: string;
 }
 
-function Button({children, theme = 'primary', full = false, leftIcon, rightIcon, ...restProps}: ButtonProps) {
+export default function Button({
+  children,
+  theme = 'primary',
+  full = false,
+  leftIcon,
+  rightIcon,
+  ...props
+}: ButtonProps) {
   return (
     <button
       className={cx('button', 'typography-button', theme, {full, 'button-with-icon': rightIcon || rightIcon})}
-      {...restProps}
+      {...props}
     >
       {leftIcon ? <img src={leftIcon} alt="icon" aria-hidden width={24} height={24} /> : null}
       {children}
@@ -23,5 +30,3 @@ function Button({children, theme = 'primary', full = false, leftIcon, rightIcon,
     </button>
   );
 }
-
-export default Button;
