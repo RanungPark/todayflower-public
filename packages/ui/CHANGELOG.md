@@ -1,5 +1,16 @@
 # @todayflower-public/ui
 
+## 1.1.0
+
+### Minor Changes
+
+- f3df5a1: feat: 버튼류 컴포넌트 제작
+
+### Patch Changes
+
+- ea578db: refactor: 경로 문제 이슈 해결
+- d240cb9: refactor: 미추가된 경로 이슈 해결
+
 ## 1.0.5
 
 ### Patch Changes
