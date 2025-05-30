@@ -5,10 +5,10 @@
   "type": "module",
   "main": "./dist/index.js",
   "exports": {
-    "./react": "./react/index.js",
-    "./node": "./node/index.js",
-    "./typescript": "./typescript/index.js",
-    "./strict": "./strict/index.js"
+    "./react": "./dist/react/index.js",
+    "./node": "./dist/node/index.js",
+    "./typescript": "./dist/typescript/index.js",
+    "./strict": "./dist/strict/index.js"
   },
   "files": [
     "dist"
