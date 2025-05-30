@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './IconButton.module.css';
+import styles from './iconButton.module.css';
 
 const cx = classNames.bind(styles);
 
