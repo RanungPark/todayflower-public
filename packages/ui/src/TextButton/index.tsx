@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './TextButton.module.css';
+import styles from './textButton.module.css';
 
 const cx = classNames.bind(styles);
 
