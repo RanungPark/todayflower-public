@@ -4,21 +4,29 @@ import styles from './button.module.css';
 const cx = classNames.bind(styles);
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children?: React.ReactNode;
+  children: React.ReactNode;
   theme?: 'primary' | 'secondary' | 'tertiary';
   full?: boolean;
-  iconLeft?: string;
-  iconRight?: string;
+  leftIcon?: string;
+  rightIcon?: string;
 }
 
-function Button({children, theme = 'primary', full = false, iconLeft, iconRight, ...restProps}: ButtonProps) {
+export default function Button({
+  children,
+  theme = 'primary',
+  full = false,
+  leftIcon,
+  rightIcon,
+  ...props
+}: ButtonProps) {
   return (
-    <button className={cx('button', 'typography-button', 'button-with-icon', theme, {full})} {...restProps}>
-      {iconLeft ? <img src={iconLeft} alt="icon" aria-hidden width={24} height={24} /> : null}
+    <button
+      className={cx('button', 'typography-button', theme, {full, 'button-with-icon': rightIcon || rightIcon})}
+      {...props}
+    >
+      {leftIcon ? <img src={leftIcon} alt="icon" aria-hidden width={24} height={24} /> : null}
       {children}
-      {iconRight ? <img src={iconRight} alt="icon" aria-hidden width={24} height={24} /> : null}
+      {rightIcon ? <img src={rightIcon} alt="icon" aria-hidden width={24} height={24} /> : null}
     </button>
   );
 }
-
-export default Button;
