@@ -1,0 +1,24 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.base:active {
+  color: var(--black);
+}
+
+.focus {
+  color: var(--black);
+}
+
+.notFocus {
+  color: var(--dark-gray);
+}
+
+.disabled {
+  color: var(--gray);
+  pointer-events: none;
+}
