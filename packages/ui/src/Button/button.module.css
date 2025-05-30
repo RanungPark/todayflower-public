@@ -22,70 +22,69 @@
 }
 
 .primary {
-  background-color: #191f28;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
 
   &:hover {
-    background-color: #4e5968;
-    color: #ffffff;
+    background-color: var(--dark-gray);
+    color: var(--white);
   }
-
   &:disabled {
-    background-color: #d1d6db;
-    color: #8b95a1;
+    background-color: var(--light-gray);
+    color: var(--gray);
   }
 
   &:active {
-    background-color: #191f28;
-    color: #ffffff;
+    background-color: var(--black);
+    color: var(--white);
   }
 }
 
 .secondary {
-  background-color: #ffffff;
-  color: #191f28;
-  border: 1px solid #191f28;
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
 
   &:hover {
-    background-color: #191f28;
-    color: #ffffff;
-    border: 1px solid #191f28;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
   }
 
   &:disabled {
-    background-color: #ffffff;
-    color: #d1d6db;
-    border: 1px solid #d1d6db;
+    background-color: var(--white);
+    color: var(--light-gray);
+    border: 1px solid var(--light-gray);
   }
 
   &:active {
-    background-color: #ffffff;
-    color: #191f28;
-    border: 1px solid #191f28;
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
   }
 }
 
 .tertiary {
   background-color: transparent;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: var(--white);
+  border: 1px solid var(--white);
 
   &:hover {
-    background-color: #ffffff;
-    color: #4e5968;
-    border: 1px solid #ffffff;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    border: 1px solid var(--white);
   }
 
   &:disabled {
     background-color: transparent;
-    color: #d1d6db;
-    border: 1px solid #d1d6db;
+    color: var(--light-gray);
+    border: 1px solid var(--light-gray);
   }
 
   &:active {
-    background-color: #ffffff;
-    color: #191f28;
-    border: 1px solid #ffffff;
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--white);
   }
 }
 
