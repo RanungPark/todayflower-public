@@ -2,6 +2,8 @@ import {defineConfig, type PluginOption} from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
+import {viteStaticCopy} from 'vite-plugin-static-copy';
 
 const extension = '.mjs';
 
@@ -11,7 +13,19 @@ const replaceExtension = (target: string, replacement: '.mjs' | '.js') => {
 };
 
 export default defineConfig({
-  plugins: [peerDepsExternal() as PluginOption, react()],
+  plugins: [
+    peerDepsExternal() as PluginOption,
+    react(),
+    cssInjectedByJsPlugin(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'src/styles/*',
+          dest: 'styles',
+        },
+      ],
+    }),
+  ],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
