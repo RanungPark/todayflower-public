@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.0.4
+
+### Patch Changes
+
+- 35b958e: refactor: css파일 인라인으로 작성되고 공통 css 복사하도록 vite 수정
+
 ## 1.0.3
 
 ### Patch Changes
