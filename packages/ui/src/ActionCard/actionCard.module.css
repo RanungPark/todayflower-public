@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  min-height: 360px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  border-left: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+
+  @media (max-width: 768px) {
+    min-height: 384px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 12px;
+    min-height: 160px;
+  }
+}
+
+.button {
+  position: absolute;
+  bottom: 24px;
+
+  @media (max-width: 375px) {
+    bottom: 12px;
+  }
+}
