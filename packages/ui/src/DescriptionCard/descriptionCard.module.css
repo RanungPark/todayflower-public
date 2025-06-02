@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+
+  border-left: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+
+  @media (max-width: 375px) {
+    border-left: none;
+    padding: 40px 16px;
+  }
+}
