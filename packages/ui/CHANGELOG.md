@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.2.0
+
+### Minor Changes
+
+- db024b7: feat: 카드 컴포넌트 제작
+
 ## 1.1.0
 
 ### Minor Changes
