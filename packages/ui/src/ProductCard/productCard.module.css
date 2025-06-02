@@ -1,0 +1,44 @@
+.wrapper {
+  width: 160px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.onClick {
+  cursor: pointer;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.price {
+  color: var(--gray);
+}
+
+.label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wrapper > img {
+  width: auto;
+  height: 160px;
+
+  border: 1px solid var(--light-gray);
+
+  &:hover {
+    border: 1px solid var(--gray);
+  }
+
+  &:active {
+    border: 1px solid var(--black);
+  }
+}
