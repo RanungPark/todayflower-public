@@ -18,7 +18,7 @@ const meta = {
 
 export default meta;
 
-export const 이미지_카드 = ({
+export const 상품_카드 = ({
   label = 'No Vase',
   price = '0',
   onClick,
