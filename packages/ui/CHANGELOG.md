@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.2.1
+
+### Patch Changes
+
+- 9d43059: refactor: 버튼 컴포넌트 스타일 적용 leftIcon 수정
+
 ## 1.2.0
 
 ### Minor Changes
