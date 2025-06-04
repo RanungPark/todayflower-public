@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 32px 24px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+    width: auto;
+  }
+
+  @media (max-width: 375px) {
+    padding: 12px;
+    width: auto;
+  }
+}
+
+.isBorderRight {
+  border-right: 1px solid var(--black);
+}
+
+.isBorderLeft {
+  border-left: 1px solid var(--black);
+}
