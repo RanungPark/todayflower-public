@@ -1,0 +1,9 @@
+@import '../styles/index.css';
+
+.bold {
+  font-weight: bold;
+}
+
+.inline {
+  display: inline;
+}
