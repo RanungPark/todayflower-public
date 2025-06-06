@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.gap-none {
+  gap: 0;
+}
+.gap-xs {
+  gap: 4px;
+}
+.gap-sm {
+  gap: 8px;
+}
+.gap-md {
+  gap: 16px;
+}
+.gap-lg {
+  gap: 24px;
+}
+.gap-xl {
+  gap: 32px;
+}
+
+.columns-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+.columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+.columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+.columns-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+.columns-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+.columns-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+
+.justify-center {
+  justify-items: center;
+}
+.justify-start {
+  justify-items: start;
+}
+.justify-end {
+  justify-items: end;
+}
