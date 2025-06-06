@@ -8,3 +8,28 @@
   --success: #02a262;
   --error: #e42939;
 }
+
+.color-white {
+  color: var(--white);
+}
+.color-extra-light {
+  color: var(--extra-light);
+}
+.color-light-gray {
+  color: var(--light-gray);
+}
+.color-gray {
+  color: var(--gray);
+}
+.color-dark-gray {
+  color: var(--dark-gray);
+}
+.color-black {
+  color: var(--black);
+}
+.color-success {
+  color: var(--success);
+}
+.color-error {
+  color: var(--error);
+}
