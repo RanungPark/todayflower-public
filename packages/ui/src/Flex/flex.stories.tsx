@@ -1,4 +1,4 @@
-import {Flex} from '.';
+import Flex from '.';
 import type {FlexProps} from '.';
 
 const meta = {

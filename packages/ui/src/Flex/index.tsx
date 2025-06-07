@@ -9,7 +9,7 @@ export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
   align?: 'start' | 'center' | 'end';
   gap?: 'none' | 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 }
-export function Flex({children, direction, justify, align, gap, className, ...props}: FlexProps) {
+export default function Flex({children, direction, justify, align, gap, className, ...props}: FlexProps) {
   return (
     <div
       className={cx(
