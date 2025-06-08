@@ -1,5 +1,5 @@
 import {colors} from '../colors';
-import {Text} from '.';
+import Text from '.';
 import type {TextProps} from '.';
 
 const meta = {

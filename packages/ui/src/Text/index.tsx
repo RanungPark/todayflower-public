@@ -29,7 +29,7 @@ export type TextProps<T extends React.ElementType = 'div'> = React.ComponentProp
   inline?: boolean;
 };
 
-export function Text<T extends React.ElementType = 'div'>({
+export default function Text<T extends React.ElementType = 'div'>({
   children,
   color = 'black',
   size = 'body',
