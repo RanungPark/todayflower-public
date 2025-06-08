@@ -1,5 +1,15 @@
 # @todayflower-public/ui
 
+## 1.4.0
+
+### Minor Changes
+
+- d480241: feat: 기본으로 사용되는 컴포넌트 추가
+  - text 컴포넌트 제작
+  - img 컴포넌트 제작
+  - grid 컴포넌트 제작
+  - flex 컴포넌트 제작
+
 ## 1.3.0
 
 ### Minor Changes
