@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './button.module.css';
+import SVG from '../SVG';
 
 const cx = classNames.bind(styles);
 
@@ -24,9 +25,9 @@ export default function Button({
       className={cx('button', 'typography-button', theme, {full, 'button-with-icon': leftIcon || rightIcon})}
       {...props}
     >
-      {leftIcon ? <img src={leftIcon} alt="icon" aria-hidden width={24} height={24} /> : null}
+      {leftIcon ? <SVG src={leftIcon} /> : null}
       {children}
-      {rightIcon ? <img src={rightIcon} alt="icon" aria-hidden width={24} height={24} /> : null}
+      {rightIcon ? <SVG src={rightIcon} /> : null}
     </button>
   );
 }

@@ -15,7 +15,7 @@ export default meta;
 
 export const 아이콘_버튼 = ({disabled}: IconButtonProps) => {
   return (
-    <IconButton disabled={disabled} icon={ArrowLeft}>
+    <IconButton disabled={disabled} src={ArrowLeft}>
       button
     </IconButton>
   );

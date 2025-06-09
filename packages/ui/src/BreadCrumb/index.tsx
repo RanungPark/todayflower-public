@@ -3,6 +3,7 @@ import styles from './breadCrumb.module.css';
 import React from 'react';
 import ChevronRight from '../assets/icon/chevron-right.svg';
 import ChevronRightGray from '../assets/icon/chevron-right-gray.svg';
+import SVG from '../SVG';
 
 const cx = classNames.bind(styles);
 
@@ -22,7 +23,7 @@ export default function BreadCrumb({children, focus, ...props}: BreadCrumbProps)
       {...props}
     >
       {children}
-      <img src={Chevron} alt="icon" aria-hidden />
+      <SVG src={Chevron} width={6} height={10} />
     </button>
   );
 }

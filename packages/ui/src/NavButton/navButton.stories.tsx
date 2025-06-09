@@ -32,7 +32,7 @@ export const 네비게이션_버튼 = ({
   return (
     <NavButton
       isBorderRight={isBorderRight}
-      nav={isIcon ? <IconButton icon={Menu} /> : <NavButton.TextButton>{text}</NavButton.TextButton>}
+      nav={isIcon ? <IconButton src={Menu} /> : <NavButton.TextButton>{text}</NavButton.TextButton>}
     />
   );
 };
