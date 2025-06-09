@@ -1,8 +1,17 @@
 {
   "name": "@todayflower-public/ui",
   "version": "1.4.1",
-  "description": "",
-  "author": "",
+  "description": "UI for RanungPark",
+  "author": "RanungPark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RanungPark/todayflower-public",
+    "directory": "packages/ui"
+  },
+  "homepage": "https://github.com/RanungPark/todayflower-public",
+  "keywords": [
+    "ui"
+  ],
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -24,7 +33,6 @@
     "version": "pnpm version",
     "deploy": "pnpm publish"
   },
-  "keywords": [],
   "files": [
     "dist"
   ],
