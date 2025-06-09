@@ -1,5 +1,11 @@
 # @todayflower-public/ui
 
+## 1.4.1
+
+### Patch Changes
+
+- 5f79eed: refactor: assets 폴더도 정적 복사하도록 수정
+
 ## 1.4.0
 
 ### Minor Changes
