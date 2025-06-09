@@ -68,6 +68,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: ^3.1.4
         version: 3.1.4(@vitest/browser@3.1.4(playwright@1.52.0)(vite@6.3.5(@types/node@12.20.55)(yaml@2.8.0))(vitest@3.1.4))(vitest@3.1.4(@types/node@12.20.55)(@vitest/browser@3.1.4)(yaml@2.8.0))
+      chromatic:
+        specifier: ^12.1.1
+        version: 12.1.1
       playwright:
         specifier: ^1.52.0
         version: 1.52.0
@@ -1360,6 +1363,18 @@ packages:
 
   chromatic@11.29.0:
     resolution: {integrity: sha512-yisBlntp9hHVj19lIQdpTlcYIXuU9H/DbFuu6tyWHmj6hWT2EtukCCcxYXL78XdQt1vm2GfIrtgtKpj/Rzmo4A==}
+    hasBin: true
+    peerDependencies:
+      '@chromatic-com/cypress': ^0.*.* || ^1.0.0
+      '@chromatic-com/playwright': ^0.*.* || ^1.0.0
+    peerDependenciesMeta:
+      '@chromatic-com/cypress':
+        optional: true
+      '@chromatic-com/playwright':
+        optional: true
+
+  chromatic@12.1.1:
+    resolution: {integrity: sha512-vNe/PU4EvPN4V+d03Ym2mWBxqEkfbTCSfd0Z+PUMir0S/gKjbFK72FgTYz64j3k31UtrzMarB8EIzwFMxsDbjg==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
@@ -4824,6 +4839,8 @@ snapshots:
       fsevents: 2.3.3
 
   chromatic@11.29.0: {}
+
+  chromatic@12.1.1: {}
 
   ci-info@3.9.0: {}
 
