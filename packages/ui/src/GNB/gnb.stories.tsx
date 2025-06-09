@@ -23,11 +23,11 @@ export const 네비게이션 = ({secondNav, isIcon}: {secondNav: boolean; isIcon
   return (
     <GNB
       leftNav={
-        <NavButton nav={isIcon ? <IconButton icon={Menu} /> : <NavButton.TextButton>Shop</NavButton.TextButton>} />
+        <NavButton nav={isIcon ? <IconButton src={Menu} /> : <NavButton.TextButton>Shop</NavButton.TextButton>} />
       }
       rightNav={
         <NavButton
-          nav={isIcon ? <IconButton icon={ShoppingBag} /> : <NavButton.TextButton>Cart</NavButton.TextButton>}
+          nav={isIcon ? <IconButton src={ShoppingBag} /> : <NavButton.TextButton>Cart</NavButton.TextButton>}
           isBorderRight={false}
           isBorderLeft={!secondNav}
         />
