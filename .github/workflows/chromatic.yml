@@ -21,6 +21,10 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Build UI package
+        run: pnpm --filter @todayflower-public/ui... run build
+
       - name: Run Chromatic
         uses: chromaui/action@latest
         with:
