@@ -4,8 +4,8 @@ import styles from './imgCard.module.css';
 const cx = classNames.bind(styles);
 
 interface ImgCardProps extends React.ImgHTMLAttributes<HTMLImageElement> {
-  label: React.ReactNode;
-  price: React.ReactNode;
+  label?: React.ReactNode;
+  price?: React.ReactNode;
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
 }
 
@@ -13,8 +13,8 @@ export default function ImgCard({label, price, onClick, ...props}: ImgCardProps)
   return (
     <div className={cx('wrapper', {onClick})} onClick={onClick}>
       <img aria-hidden {...props} />
-      {label}
-      {price}
+      {label != null ? label : null}
+      {price != null ? price : null}
     </div>
   );
 }
