@@ -1,5 +1,12 @@
 # @todayflower-public/ui
 
+## 1.4.3
+
+### Patch Changes
+
+- 2b2a945: refactor: imgCard props
+  - imgCard 옵셔널로 변경
+
 ## 1.4.2
 
 ### Patch Changes
