@@ -23,8 +23,8 @@ export const 이미지_카드 = ({
   price = '70',
   onClick,
 }: {
-  label: string;
-  price: string;
+  label?: string;
+  price?: string;
   onClick: boolean;
 }) => {
   const handleClick = () => {
@@ -33,8 +33,8 @@ export const 이미지_카드 = ({
 
   return (
     <ImgCard
-      label={<ImgCard.Label>{label}</ImgCard.Label>}
-      price={<ImgCard.Price>{price}</ImgCard.Price>}
+      label={label ? <ImgCard.Label>{label}</ImgCard.Label> : null}
+      price={price ? <ImgCard.Price>{price}</ImgCard.Price> : null}
       src="https://picsum.photos/1000/1000"
       onClick={onClick ? handleClick : undefined}
     />
