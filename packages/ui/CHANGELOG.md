@@ -1,5 +1,14 @@
 # @todayflower-public/ui
 
+## 2.0.0
+
+### Major Changes
+
+- 752ba36: feat: 스켈레톤 컴포넌트 제작
+  - 이미지 카드 스켈레톤 제작
+  - 상품 카드 스켈레톤 제작
+  - 바 스켈레톤 제작
+
 ## 1.5.0
 
 ### Minor Changes
