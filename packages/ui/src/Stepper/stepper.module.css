@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 146px;
+  border: 1px solid var(--black);
+}
+
+.wrapper > button:first-child {
+  border-right: 1px solid var(--black);
+  padding: 12px;
+}
+
+.wrapper > button:last-child {
+  border-left: 1px solid var(--black);
+  padding: 12px;
+}
+
+.input {
+  width: 59px;
+  height: 100%;
+  text-align: center;
+
+  border: none;
+  outline: none;
+  background: transparent;
+  pointer-events: none;
+  user-select: none;
+}

@@ -1,0 +1,46 @@
+.labelStyled {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.labelStyled input,
+.labelStyled span {
+  vertical-align: text-top;
+}
+
+.labelStyled:active {
+  color: var(--gray);
+}
+
+.labelStyled:active input {
+  border: 1px solid var(--gray);
+}
+
+.labelStyled:active input::before {
+  background-color: var(--gray);
+}
+
+.hiddenInput {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  background-color: var(--light-gray);
+  cursor: pointer;
+  appearance: none;
+}
+
+.hiddenInput:checked::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--black);
+  transform: translate(-50%, -50%);
+  content: '';
+}
