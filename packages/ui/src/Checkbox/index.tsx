@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './Checkbox.module.css';
+import styles from './checkbox.module.css';
 import Check from '../assets/icon/check.svg';
 import SVG from '../SVG';
 
