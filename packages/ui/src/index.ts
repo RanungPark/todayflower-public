@@ -28,4 +28,8 @@ export {default as Stepper} from './Stepper';
 
 export {default as Accordion} from './Accordion';
 
+export {default as BarCardSkeleton} from './BarCardSkeleton';
+export {default as ImgCardSkeleton} from './ImgCardSkeleton';
+export {default as ProductCardSkeleton} from './ProductCardSkeleton';
+
 export {default as SVG} from './SVG';
